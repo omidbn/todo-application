@@ -15,7 +15,7 @@ class Todo extends React.Component
                 }}
             >
                 {this.props.text}
-                <span className='pull-right delete-item' onClick={() => this.props.deleteItem(this.props.id)}>✕</span>
+                <span className='delete-item' onClick={() => this.props.deleteItem(this.props.id)}>✕</span>
             </li>
         )
     }
